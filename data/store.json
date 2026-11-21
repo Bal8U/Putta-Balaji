@@ -1,0 +1,452 @@
+{
+  "nextIds": {
+    "users": 2,
+    "products": 10,
+    "orders": 5,
+    "bulkQuotes": 5
+  },
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Aarav Mehta",
+      "email": "admin@vastraloom.in",
+      "passwordHash": "$2b$10$dq/qxUk/g0o3ZI1ID7pvruhLqpmbUYD0hxgWHG6EUAFR6.xtzTrv2",
+      "role": "admin",
+      "phone": "+91 98290 44120"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "sku": "VL-KRT-101",
+      "name": "Jaipur Chanderi Handloom Kurta",
+      "category": "Kurtas",
+      "description": "Breathable ivory chanderi cotton kurta featuring tonal placket embroidery, mandarin collar, and reinforced side slits crafted for festive and everyday wear.",
+      "fabric": "100% Cotton",
+      "priceInr": 1490,
+      "stock": 143,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colorName": "Ivory",
+      "colorHex": "#F5F0E6",
+      "imageUrl": "/src/assets/images/product_kurta_ivory_1795171663177.jpg",
+      "featured": true,
+      "createdAt": "2026-10-29T10:59:34.902Z"
+    },
+    {
+      "id": 2,
+      "sku": "VL-TSH-204",
+      "name": "Tiruppur 240 GSM Combed Cotton Tee",
+      "category": "Cotton T-Shirts",
+      "description": "Heavyweight ring-spun combed cotton crew-neck tee in deep heritage teal. Pre-shrunk bio-washed knit engineered for crisp retail drape and screen printing.",
+      "fabric": "100% Cotton",
+      "priceInr": 690,
+      "stock": 420,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colorName": "Heritage Teal",
+      "colorHex": "#0F766E",
+      "imageUrl": "/src/assets/images/product_tshirt_teal_1795171655296.jpg",
+      "featured": true,
+      "createdAt": "2026-10-31T10:59:34.902Z"
+    },
+    {
+      "id": 3,
+      "sku": "VL-SAR-309",
+      "name": "Varanasi Zari Teal Silk Blend Saree",
+      "category": "Sarees",
+      "description": "6.3-metre ceremonial Banarasi silk blend drape woven with floral antique gold zari borders and matching unstitched blouse piece.",
+      "fabric": "Silk Blend",
+      "priceInr": 4250,
+      "stock": 62,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colorName": "Deep Teal",
+      "colorHex": "#115E59",
+      "imageUrl": "/src/assets/images/product_saree_silk_1795171652989.jpg",
+      "featured": true,
+      "createdAt": "2026-11-02T10:59:34.902Z"
+    },
+    {
+      "id": 4,
+      "sku": "VL-NHR-412",
+      "name": "Jodhpur Raw Silk Nehru Jacket",
+      "category": "Nehru Jackets",
+      "description": "Structured midnight indigo textured raw silk bundi jacket finished with a crisp bandhgala collar, welt chest pocket, and matte antique buttons.",
+      "fabric": "Silk Blend",
+      "priceInr": 2890,
+      "stock": 88,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colorName": "Indigo Slate",
+      "colorHex": "#2B3A4E",
+      "imageUrl": "/src/assets/images/product_nehru_jacket_1795171653051.jpg",
+      "featured": true,
+      "createdAt": "2026-11-04T10:59:34.902Z"
+    },
+    {
+      "id": 5,
+      "sku": "VL-HDY-505",
+      "name": "Ludhiana 380 GSM French Terry Hoodie",
+      "category": "Hoodies",
+      "description": "Heavyweight brushed cotton-fleece unisex pullover hoodie in heather slate with double-lined hood and reinforced kangaroo pocket — ideal for corporate merchandise.",
+      "fabric": "100% Cotton",
+      "priceInr": 1650,
+      "stock": 210,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colorName": "Heather Slate",
+      "colorHex": "#64748B",
+      "imageUrl": "/src/assets/images/product_hoodie_slate_1795171652397.jpg",
+      "featured": true,
+      "createdAt": "2026-11-06T10:59:34.902Z"
+    },
+    {
+      "id": 6,
+      "sku": "VL-KRT-108",
+      "name": "Sanganer Pure Linen Mandarin Kurta",
+      "category": "Kurtas",
+      "description": "Lightweight European-flax linen blend kurta tailored in a clean straight silhouette with mother-of-pearl buttons for summer gatherings.",
+      "fabric": "Linen",
+      "priceInr": 2190,
+      "stock": 94,
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colorName": "Sandstone",
+      "colorHex": "#D6C7B2",
+      "imageUrl": "/src/assets/images/product_kurta_ivory_1795171663177.jpg",
+      "featured": false,
+      "createdAt": "2026-11-09T10:59:34.902Z"
+    },
+    {
+      "id": 7,
+      "sku": "VL-TSH-219",
+      "name": "Essential Bio-Wash Cotton Tee",
+      "category": "Cotton T-Shirts",
+      "description": "Everyday 180 GSM combed cotton unisex tee crafted in Tiruppur for uniform programs, retail private labels, and high-volume custom branding.",
+      "fabric": "100% Cotton",
+      "priceInr": 390,
+      "stock": 650,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colorName": "Heritage Teal",
+      "colorHex": "#0F766E",
+      "imageUrl": "/src/assets/images/product_tshirt_teal_1795171655296.jpg",
+      "featured": false,
+      "createdAt": "2026-11-11T10:59:34.902Z"
+    },
+    {
+      "id": 8,
+      "sku": "VL-NHR-425",
+      "name": "Heritage Slub Linen Bandhgala Vest",
+      "category": "Nehru Jackets",
+      "description": "Tailored sleeveless Nehru jacket cut from textured slub linen with breathable cotton voile lining for warm-weather weddings.",
+      "fabric": "Linen",
+      "priceInr": 2450,
+      "stock": 14,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colorName": "Indigo Slate",
+      "colorHex": "#2B3A4E",
+      "imageUrl": "/src/assets/images/product_nehru_jacket_1795171653051.jpg",
+      "featured": false,
+      "createdAt": "2026-11-13T10:59:34.902Z"
+    }
+  ],
+  "orders": [
+    {
+      "orderNumber": "VL-ORD-9552",
+      "customerName": "Neha Joshi",
+      "customerEmail": "neha.joshi@example.in",
+      "customerPhone": "+91 98204 55110",
+      "shippingAddress": "21 Civil Lines",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "pincode": "302006",
+      "paymentMethod": "Cash on Delivery",
+      "paymentReference": null,
+      "items": [
+        {
+          "productId": 1,
+          "name": "Jaipur Chanderi Handloom Kurta",
+          "size": "M",
+          "qty": 2,
+          "unitPrice": 1490
+        }
+      ],
+      "subtotalInr": 2980,
+      "gstInr": 536,
+      "shippingInr": 0,
+      "totalInr": 3516,
+      "status": "Pending",
+      "id": 4,
+      "createdAt": "2026-11-20T11:00:00.989Z"
+    },
+    {
+      "id": 1,
+      "orderNumber": "VL-ORD-2601",
+      "customerName": "Priya Deshmukh",
+      "customerEmail": "priya.deshmukh@example.in",
+      "customerPhone": "+91 98201 33412",
+      "shippingAddress": "402 Linking Road, Bandra West",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050",
+      "paymentMethod": "UPI / Razorpay",
+      "paymentReference": "UPI-260198441",
+      "items": [
+        {
+          "productId": 3,
+          "name": "Varanasi Zari Teal Silk Blend Saree",
+          "size": "M",
+          "qty": 1,
+          "unitPrice": 4250
+        },
+        {
+          "productId": 1,
+          "name": "Jaipur Chanderi Handloom Kurta",
+          "size": "L",
+          "qty": 1,
+          "unitPrice": 1490
+        }
+      ],
+      "subtotalInr": 5740,
+      "gstInr": 1033,
+      "shippingInr": 0,
+      "totalInr": 6773,
+      "status": "Delivered",
+      "createdAt": "2026-11-05T10:59:34.902Z"
+    },
+    {
+      "id": 2,
+      "orderNumber": "VL-ORD-2602",
+      "customerName": "Rohan Kulkarni",
+      "customerEmail": "rohan.k@example.in",
+      "customerPhone": "+91 98450 77821",
+      "shippingAddress": "14 Indiranagar 100ft Rd",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560038",
+      "paymentMethod": "Cash on Delivery",
+      "paymentReference": null,
+      "items": [
+        {
+          "productId": 4,
+          "name": "Jodhpur Raw Silk Nehru Jacket",
+          "size": "L",
+          "qty": 2,
+          "unitPrice": 2890
+        }
+      ],
+      "subtotalInr": 5780,
+      "gstInr": 1040,
+      "shippingInr": 0,
+      "totalInr": 6820,
+      "status": "In Production",
+      "createdAt": "2026-11-14T10:59:34.902Z"
+    },
+    {
+      "id": 3,
+      "orderNumber": "VL-ORD-2603",
+      "customerName": "Ananya Chatterjee",
+      "customerEmail": "ananya.c@example.in",
+      "customerPhone": "+91 98300 51908",
+      "shippingAddress": "28 Park Street, Ballygunge",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700016",
+      "paymentMethod": "UPI / Razorpay",
+      "paymentReference": "UPI-260372819",
+      "items": [
+        {
+          "productId": 2,
+          "name": "Tiruppur 240 GSM Combed Cotton Tee",
+          "size": "M",
+          "qty": 3,
+          "unitPrice": 690
+        }
+      ],
+      "subtotalInr": 2070,
+      "gstInr": 373,
+      "shippingInr": 0,
+      "totalInr": 2443,
+      "status": "Pending",
+      "createdAt": "2026-11-18T10:59:34.902Z"
+    }
+  ],
+  "bulkQuotes": [
+    {
+      "quoteNumber": "VL-BLK-9842",
+      "businessName": "Malabar Textiles Co",
+      "contactName": "Suresh Menon",
+      "contactEmail": "suresh@malabartextiles.in",
+      "contactPhone": "+91 98470 11223",
+      "gstin": "32AABCM9921K1Z8",
+      "apparelType": "Combed Cotton T-Shirt",
+      "fabric": "Linen",
+      "sizeMatrix": {
+        "S": 30,
+        "M": 50,
+        "L": 40,
+        "XL": 30,
+        "XXL": 0
+      },
+      "totalQuantity": 150,
+      "customPrinting": true,
+      "logoUrl": null,
+      "shippingSpeed": "Express",
+      "unitPriceInr": 300,
+      "baseCostInr": 45000,
+      "printingCostInr": 6000,
+      "discountPercent": 10,
+      "discountAmountInr": 5100,
+      "discountedSubtotalInr": 45900,
+      "gstInr": 8262,
+      "shippingFeeInr": 3150,
+      "estimatedTotalInr": 57312,
+      "notes": null,
+      "status": "Approved / Quote Sent",
+      "id": 4,
+      "createdAt": "2026-11-20T11:00:59.505Z"
+    },
+    {
+      "id": 1,
+      "quoteNumber": "VL-BLK-8401",
+      "businessName": "Kaveri Tech Solutions Pvt Ltd",
+      "contactName": "Vikramaditya Rao",
+      "contactEmail": "procurement@kaveritech.in",
+      "contactPhone": "+91 98451 22900",
+      "gstin": "29AAACK1234F1Z5",
+      "apparelType": "Combed Cotton T-Shirt",
+      "fabric": "100% Cotton",
+      "sizeMatrix": {
+        "S": 60,
+        "M": 180,
+        "L": 160,
+        "XL": 100,
+        "XXL": 0
+      },
+      "totalQuantity": 500,
+      "customPrinting": true,
+      "logoUrl": null,
+      "shippingSpeed": "Express",
+      "unitPriceInr": 210,
+      "baseCostInr": 105000,
+      "printingCostInr": 20000,
+      "discountPercent": 15,
+      "discountAmountInr": 18750,
+      "discountedSubtotalInr": 106250,
+      "gstInr": 19125,
+      "shippingFeeInr": 6300,
+      "estimatedTotalInr": 131675,
+      "notes": "Annual summit corporate tees with left-chest 2-color screen print.",
+      "status": "Approved / Quote Sent",
+      "createdAt": "2026-11-08T10:59:34.902Z"
+    },
+    {
+      "id": 2,
+      "quoteNumber": "VL-BLK-8402",
+      "businessName": "Rajwada Heritage Hotels",
+      "contactName": "Meera Singhania",
+      "contactEmail": "purchasing@rajwadahotels.in",
+      "contactPhone": "+91 98290 88214",
+      "gstin": "08AABCR4412K1Z2",
+      "apparelType": "Cotton Kurta",
+      "fabric": "Linen",
+      "sizeMatrix": {
+        "S": 20,
+        "M": 45,
+        "L": 50,
+        "XL": 35,
+        "XXL": 0
+      },
+      "totalQuantity": 150,
+      "customPrinting": true,
+      "logoUrl": null,
+      "shippingSpeed": "Standard",
+      "unitPriceInr": 470,
+      "baseCostInr": 70500,
+      "printingCostInr": 6000,
+      "discountPercent": 10,
+      "discountAmountInr": 7650,
+      "discountedSubtotalInr": 68850,
+      "gstInr": 12393,
+      "shippingFeeInr": 1450,
+      "estimatedTotalInr": 82693,
+      "notes": "Front-desk staff hospitality kurtas in natural ivory linen.",
+      "status": "In Production",
+      "createdAt": "2026-11-15T10:59:34.902Z"
+    },
+    {
+      "id": 3,
+      "quoteNumber": "VL-BLK-8403",
+      "businessName": "Deccan Craft Collective",
+      "contactName": "Siddharth Nair",
+      "contactEmail": "orders@deccancraft.in",
+      "contactPhone": "+91 99001 64210",
+      "gstin": "27AABCD8891M1Z9",
+      "apparelType": "Heavyweight Hoodie",
+      "fabric": "100% Cotton",
+      "sizeMatrix": {
+        "S": 15,
+        "M": 35,
+        "L": 30,
+        "XL": 20,
+        "XXL": 0
+      },
+      "totalQuantity": 100,
+      "customPrinting": false,
+      "logoUrl": null,
+      "shippingSpeed": "Standard",
+      "unitPriceInr": 540,
+      "baseCostInr": 54000,
+      "printingCostInr": 0,
+      "discountPercent": 10,
+      "discountAmountInr": 5400,
+      "discountedSubtotalInr": 48600,
+      "gstInr": 8748,
+      "shippingFeeInr": 1250,
+      "estimatedTotalInr": 58598,
+      "notes": "Blank winter drop stock for retail embroidery in Pune.",
+      "status": "Pending",
+      "createdAt": "2026-11-19T10:59:34.902Z"
+    }
+  ]
+}

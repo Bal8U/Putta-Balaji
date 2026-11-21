@@ -1,0 +1,6 @@
+{
+  "name": "VastraLoom — Indian Apparel & Wholesale",
+  "description": "Indian retail storefront, live wholesale bulk order GST calculator, and admin inventory & order management platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
